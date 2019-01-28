@@ -1,0 +1,75 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+body{
+  background-color:#356AA0 !important;
+}
+.jumbotron{
+  background-color:#356AA0 !important;
+}
+
+.done {
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.notDone {
+}
+
+#toggleStatus li {
+  background-color:#EEEEEE;
+  padding: 3px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+.nobull {
+  list-style-type: none;
+  
+  padding-top: 5px;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  }
+
+  #buttonDelete {
+    margin-left: 10px;
+    padding: .2rem .2rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: .25rem;
+
+  }
+
+  .card {
+    width: 90%;
+    max-width:700px;
+  }
+
+  .card-body{
+    background-color: #fff;
+  }
+
+  #myList {
+    margin-top: 15px;
+  }
